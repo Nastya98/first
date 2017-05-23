@@ -1,0 +1,116 @@
+
+.div{
+  background-color: gray;
+  height: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.span1{
+  background-color: green;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 70px;
+
+}
+
+.span2{
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+input[type="button"]{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+
+}
+
+#butt1{
+  background-color: red;
+
+}
+
+#butt2{
+  background-color: green;
+}
+/*
+.list li{
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  margin: 50px;
+  background-color: gray;
+  width: 50px;
+	height: 50px;
+  border-radius:50px;
+  position: relative;
+}
+
+li::after{
+  display: inline-block;
+  content: '';
+  background-color: gray;
+  box-sizing:border-box;
+  width:100%;
+  height: 2px;
+  border:solid #FFF;
+  border-width:0 .5em 0;
+}*/
+
+/*.menu{
+  list-style-type: none;
+  position: relative;
+}
+
+ul.menu li{
+  display: block;
+  margin:0;
+}
+
+ul.menu li{
+  display: inline-block;
+  margin: 30px;
+}
+
+.secondmenu{
+  display: none;
+  position: absolute;
+}
+
+ul.menu{
+  display: block;
+}
+
+
+.menu{
+  list-style-type: none;
+  position: relative;
+}*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu > li {
+  display: inline-block;
+}
+
+.secondmenu {
+  display: none;
+}
+
+ul.menu > li:hover > ul.secondmenu{
+  display: block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+
+ul.menu > li:hover >a{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    text-decoration: none;
+    
+}
